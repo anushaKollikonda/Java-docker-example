@@ -6,7 +6,7 @@ In this we have two file Main.java and Dockerfile
 
 In Dockerfile we need to write coomands like this. If You are good at linux commands then it will be easy.
 
-# we are taking an image from the public repository 
+# we are taking a base image from the public repository and we are not running this application on os . Thats y we are taling an abse image 
 FROM ubunut:latest
 # This will directory that will be formed in containers
 WORKDIR /app
